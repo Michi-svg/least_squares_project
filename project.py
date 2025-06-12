@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def load_data(path):
     """Load the dataset from a CSV file."""
-    df = pd.read_csv(path, sep="\t")  # tab-separated
+    df = pd.read_csv(path)  # Use default comma separator
     return df
 
 def clean_data(df):
@@ -40,6 +40,7 @@ def plot_results(df, x_hat):
 def main():
     # Step 1: Load and clean data
     df = load_data("tips.csv")
+    print(df.columns.tolist())  # Optional: Print column names for confirmation
     df = clean_data(df)
 
     # Step 2: Build matrices
