@@ -41,7 +41,7 @@ def plot_results(df, x_hat):
 
 def main():
     # Step 1: Load and clean data
-    df = load_data("data.csv")
+    df = load_data("tips.csv")
     df = clean_data(df)
 
     # Step 2: Build matrices for least squares
