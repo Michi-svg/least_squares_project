@@ -6,10 +6,9 @@ This project performs a linear regression analysis on the [Tips dataset](https:/
 
 ## 📁 Project Structure
 
-least_square_project
-├──tips.csv # Input dataset (CSV format)
-├── project.py # Main script with data loading, regression, and plotting
-├── README.md # This file
+``` least_square_project/ ├── tips.csv # Input dataset (CSV format) ├── project.py # Main script with data loading, regression, and plotting ├── README.md # This file ``` 
+
+---
 
 ## 🔧 Methods Used
 
