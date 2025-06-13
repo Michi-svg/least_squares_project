@@ -44,4 +44,4 @@ The program prints:
 
 1. Install required packages:
    ```bash
-   pip install pandas numpy matplotlib scipy
+   pip install pandas numpy matplotlib scipy```
