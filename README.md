@@ -10,7 +10,9 @@ This project performs a linear regression analysis on the [Tips dataset](https:/
 least_square_project/
 ├── tips.csv # Input dataset (CSV format)
 ├── project.py # Main script with data loading, regression, and plotting
-├── README.md # This file```
+├── README.md # This file
+
+```
 
 ---
 
@@ -43,5 +45,8 @@ The program prints:
 ## ▶️ How to Run
 
 1. Install required packages:
-   ```bash
-   pip install pandas numpy matplotlib scipy```
+   ```
+   bash
+   pip install pandas numpy matplotlib scipy
+
+   ```
