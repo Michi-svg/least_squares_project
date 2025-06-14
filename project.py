@@ -1,3 +1,9 @@
+"""
+Interpretation
+
+The slope of the regression line indicates how much the tip increases for each dollar increase in the total bill. The intercept represents the base tip when the total bill is $0. Based on the plot, the model fits the data fairly well, showing a linear trend, though there is still some scatter.
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
